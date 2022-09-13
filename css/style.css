@@ -308,6 +308,7 @@
   background-repeat: no-repeat;
   width: 379px;
   height: 473px;
+  border-radius: 10px;
 }
 .image-1 {
   background: url(../img/categories/img-1.png);
