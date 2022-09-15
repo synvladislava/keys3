@@ -48,13 +48,22 @@
 .header__menu a,
 .burger,
 .header__btn,
-.item {
+.item,
+.view-button,
+.shop__button,
+.guides__image,
+li a,
+.button,
+.icon {
   transition: 0.2s ease;
 }
 .header__menu a {
   color: #444;
-  font-size: 13px;
   padding-left: 30.5px;
+}
+.header__menu a,
+.date {
+  font-size: 13px;
 }
 .header__menu a:hover,
 .burger:hover,
@@ -62,9 +71,11 @@
 .header__btn:hover,
 .shop__button:hover,
 .magazine__button:hover,
+.guides__image:hover,
 .guides__button:hover,
 .button:hover,
-.icon:hover {
+.icon:hover,
+li a:hover {
   transition: 0.2s ease;
 }
 .header__menu a:hover {
@@ -76,6 +87,7 @@
 .item:hover,
 .shop__button:hover,
 .magazine__button:hover,
+.guides__image:hover,
 .guides__button:hover,
 .button:hover,
 .icon:hover {
@@ -176,7 +188,7 @@ li,
 .rights {
   font-size: 14px;
   line-height: 20px;
-  /* letter-spacing: 2px; */
+  letter-spacing: 2px;
   color: #e6b939;
 }
 .mainblock__title {
@@ -229,7 +241,9 @@ li,
 .about__title,
 .promises__title,
 .categories__title,
-.magazine__title {
+.magazine__title,
+.shop__title,
+.guides__title {
   font-size: 36px;
   line-height: 43px;
 }
@@ -418,8 +432,6 @@ li,
 }
 .shop__title,
 .guides__title {
-  font-size: 36px;
-  line-height: 43px;
   padding-bottom: 9px;
   color: #e6b939;
 }
@@ -462,6 +474,10 @@ li,
   margin-top: 21px;
   border-radius: 20px;
 }
+.guides__image:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+}
 .description {
   padding: 15px 0 12px;
   width: 465px;
@@ -490,8 +506,7 @@ li,
 .desc-2 {
   padding-bottom: 36px;
 }
-.data {
-  font-size: 13px;
+.date {
   line-height: 18px;
   color: #6f7278;
 }
@@ -539,6 +554,12 @@ li,
   height: 48px;
   margin: 0 auto;
 }
+.footer__nav {
+  display: flex;
+}
+ul {
+  width: 220px;
+}
 li {
   padding-bottom: 9px;
 }
@@ -546,19 +567,13 @@ li a,
 .footer__text,
 .rights {
   color: #fff;
+  letter-spacing: normal;
 }
 li a:hover {
   color: rgb(186, 186, 186);
-  transition: 0.2s ease;
 }
 .footer__text {
-  width: 495px;
-}
-.footer__nav {
-  display: flex;
-}
-ul {
-  width: 220px;
+  width: 478px;
 }
 .form {
   position: relative;
@@ -571,6 +586,7 @@ ul {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   outline: none;
+  text-indent: 1.5em;
 }
 .input::placeholder {
   padding-left: 21px;
@@ -590,8 +606,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.footer__bottom {
   padding-top: 30px;
 }
 .icons {
