@@ -414,6 +414,7 @@ li,
   line-height: 12px;
   color: #ffffff;
 }
+
 /* SECTION PICTURE END */
 
 /* SECTION SHOP START */
@@ -452,6 +453,7 @@ li,
   background: #c8c8c8;
   color: #fff;
 }
+
 /* SECTION SHOP END */
 
 /* SECTION GUIDES START */
@@ -711,6 +713,9 @@ li a:hover {
   }
   .mainblock__textblock {
     padding: 150px 0;
+  }
+  .mainblock__bg-element {
+    display: none;
   }
   .column {
     margin-left: 15px;
