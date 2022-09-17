@@ -19,10 +19,6 @@
   padding: 0 16px;
   margin: 0 auto;
 }
-.bg-element {
-  width: 100%;
-  height: 100%;
-}
 
 /* HEADER START */
 
@@ -217,6 +213,9 @@ li,
   top: 95.8%;
   left: 40.7%;
 }
+.bg-element {
+  width: 100%;
+}
 
 /* SECTION MAINBLOCK END */
 
@@ -260,11 +259,6 @@ li,
 .shop__button {
   background: transparent;
   font-size: 15px;
-}
-.about__bg-element {
-  position: absolute;
-  top: 142%;
-  left: 0.9%;
 }
 
 /* SECTION ABOUT END */
@@ -326,16 +320,6 @@ li,
   width: 287px;
   font-size: 14px;
   line-height: 20px;
-}
-.promises__bg-element-1 {
-  position: absolute;
-  top: 0%;
-  right: 0%;
-}
-.promises__bg-element-2 {
-  position: absolute;
-  left: 0%;
-  bottom: 0%;
 }
 
 /* SECTION PROMISE END */
@@ -537,11 +521,6 @@ li,
   padding-top: 28px;
   text-align: center;
 }
-.guides__bg-element {
-  position: absolute;
-  top: 616%;
-  left: 41%;
-}
 
 /* SECTION GUIDES END */
 
@@ -564,13 +543,6 @@ li,
 }
 .magazine__desc {
   padding: 7px 0 20px;
-}
-.magazine__bg-element {
-  position: absolute;
-  max-width: 250px;
-  top: 191px;
-  left: -115px;
-  transform: translateY(100%);
 }
 
 /* SECTION MAGAZINE END */
