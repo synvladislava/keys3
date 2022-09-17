@@ -80,6 +80,9 @@
   .mainblock__textblock {
     padding: 150px 0;
   }
+  .mainblock__bg-element {
+    display: none;
+  }
   .column {
     margin-left: 15px;
   }
