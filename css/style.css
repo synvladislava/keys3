@@ -207,6 +207,11 @@ li,
   color: #caccd1;
   padding-top: 11px;
 }
+.mainblock__bg-element {
+  position: absolute;
+  top: 95.8%;
+  left: 40.7%;
+}
 
 /* SECTION MAINBLOCK END */
 
@@ -310,6 +315,16 @@ li,
   width: 287px;
   font-size: 14px;
   line-height: 20px;
+}
+.promises__bg-element-1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.promises__bg-element-2 {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
 }
 
 /* SECTION PROMISE END */
