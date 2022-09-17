@@ -19,6 +19,9 @@
   padding: 0 16px;
   margin: 0 auto;
 }
+.bg-element {
+  width: 100%;
+}
 
 /* HEADER START */
 
