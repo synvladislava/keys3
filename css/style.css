@@ -154,7 +154,7 @@ li a:hover {
   border-radius: 9px;
 }
 #amount {
-  top: 1px;
+  top: 0px;
   left: 0;
   bottom: 0;
   right: 0;
